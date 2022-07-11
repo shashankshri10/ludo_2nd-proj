@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0rem; 
+    padding: 0rem;
+}
+@font-face {
+    font-family: "Edu SA Beginner";
+    font-family: "Lobster Two";
+    font-family: "Rubik Mono One";
+    
+    src: url('https://fonts.googleapis.com/css2?family=Bangers&family=Cinzel+Decorative&family=Edu+SA+Beginner&family=IM+Fell+English+SC&family=Lobster+Two&family=Rubik+Mono+One&display=swap');
+}
+html{
+    scroll-behavior: smooth;
+    margin: 0; 
+    padding: 0; 
+}
+h1{
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 7.5vmax;
+    padding: 0.5vh 0.1vw 0.5vh 0.1vw; 
+    margin: auto;
+    color: olivedrab;
+}
+.canvasDiv{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: auto; 
+    padding: 1vh 0.2vw 1vh 0.2vw;
+    width: 98%;
+}
+#ludoBoard{
+    border: 0.1vw solid black;
+    border-radius: 1vw;
+    
+    
+}
