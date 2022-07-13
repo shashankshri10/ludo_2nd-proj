@@ -3,13 +3,7 @@
     margin: 0rem; 
     padding: 0rem;
 }
-@font-face {
-    font-family: "Edu SA Beginner";
-    font-family: "Lobster Two";
-    font-family: "Rubik Mono One";
-    
-    src: url('https://fonts.googleapis.com/css2?family=Bangers&family=Cinzel+Decorative&family=Edu+SA+Beginner&family=IM+Fell+English+SC&family=Lobster+Two&family=Rubik+Mono+One&display=swap');
-}
+
 html{
     scroll-behavior: smooth;
     margin: 0; 
@@ -33,6 +27,114 @@ h1{
 #ludoBoard{
     border: 0.1vw solid black;
     border-radius: 1vw;
+}
+#secondScreen{
+    margin: auto;
+    margin-top: 2vh; 
+    padding: 2vh; 
+    width: 95vmin; 
+    border: 0.1vw solid black;
+    border-radius: 1vw;
+    background-color: #df658977;
+}
+.ssBorderAni1{
+    border: 0.5vw solid red;
+    background-color: #df6589ff; 
+}
+.ssBorderAni2{
+    border: 0.5vw solid blue; 
+    background-color: #3c1053ff;
+}
+#secondScreen>p{
+    font-family: 'Edu SA Beginner', cursive;
+    font-size:6vw; 
+}
+#secondScreen input{
+    display:flex; 
+    justify-content: center;
+    align-content: center;
+    height: 5vh;
+    width: 20vw;
+    background-color: lightcyan;
+    padding:0.2rem 0.1rem 0.2rem 0.1rem;
+    border-radius: 2vh;
+    font-family: 'Trispace', sans-serif;
+    font-size: 2.5vw;
+    transition: width 0.75s;
+}
+#secondScreen input:hover{
+    border:0.1rem dotted lightskyblue;
+}
+#secondScreen input:focus-visible{
+    background-color: aliceblue;
+    color: blue;
+    width: 30vw;
+}
+.inF{
+    display:flex; 
+    justify-content: center;
+    align-content: center;
+}
+#secondScreen button{
+    height: 8vh; 
+    width: 20vw;
+    border: 0.5vh solid bisque;  
+    font-family: 'IM Fell English SC', serif;
+    font-size: 3vw;
+    border-radius: 2.5vh;
+
+}
+#lbl3,#lbl4{
+    background-color: #caf250;
+    font-family: 'Rubik Mono One',sans-serif;
+    font-size: 1vw; 
+    align-self: center;
+}
+.Lockers{
+    width: 100%;
+    padding: 0.5vh; 
+    margin: auto; 
+}
+.PLyrLocker{
+    width: 99%;
+    padding: auto; 
+    margin: auto; 
+    background-color: #f6ea7bff;
+}
+.PlyrLocker>h1{
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 4vw;
+    color: #28334aff; 
+}
+.PlyrLocker>p{
+    font-family: 'Bangers', cursive;
+    font-size: 3vw;
+    color:#3e282bff; 
+}
+hr{
+    width: 40%; 
+    height:4vh; 
+
+}
+/*['#ed254eff','#f9dc5cff','#a13941ff','#011936ff']*/
+#tknhr0{
     
-    
+    width: 40%; 
+    height:8vh;
+    background-color: #ed254eff;
+}
+#tknhr1{
+    width: 40%; 
+    height:8vh;
+    background-color: #f9dc5cff;
+}
+#tknhr2{
+    width: 40%; 
+    height:8vh;
+    background-color: #a13941ff;
+}
+#tknhr3{
+    width: 40%; 
+    height:8vh;
+    background-color: #011936ff;
 }
